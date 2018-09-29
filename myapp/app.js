@@ -29,7 +29,7 @@ app.use(function(req, res, next){
   global.connection = mysql.createConnection({
       host     : 'localhost',
       user     : 'root',
-      password : 'password',
+      password : '*******',
       port     :3306,
       database : 'mydb'
   });
@@ -38,7 +38,7 @@ app.use(function(req, res, next){
 });
 app.use('/', index);
 app.use('/api/v1/users', users);
-app.use('/api/v2/users', users);
+//app.use('/api/v2/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
