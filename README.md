@@ -1,4 +1,4 @@
-# Basic REST-API for CURD Operations using NodeJS
+# Basic REST-API for CRUD Operations using NodeJS
 
 Areas Touched:
 GET, POST, PUT and DELETE
@@ -18,7 +18,7 @@ GET, POST, PUT and DELETE
 	1. In the myapp/ dir run: “npm install”
 	2. node app.js
 
-# Perform CURD operations (Examples)
+# Perform CRUD operations (Examples)
 ## GET: 
 curl -X GET \
   http://localhost:3000/api/v2/users/results \
