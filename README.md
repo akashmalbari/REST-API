@@ -19,14 +19,12 @@ GET, POST, PUT and DELETE
 	2. node app.js
 
 # Perform CURD operations (Examples)
-For GET: 
-In Postman under Import paste the following as raw text
+## GET: 
 curl -X GET \
   http://localhost:3000/api/v2/users/results \
   -H 'cache-control: no-cache’
 
-For POST:
-In Postman under Import paste the following as raw text
+## POST:
 curl -X POST \
   http://localhost:3000/api/v2/users/insert \
   -H 'cache-control: no-cache' \
@@ -36,8 +34,7 @@ curl -X POST \
 	"address1":"Old Address"
 }'
 
-For PUT: 
-In Postman under Import paste the following as raw text
+## PUT: 
 curl -X PUT \
   http://localhost:3000/api/v2/users/update \
   -H 'cache-control: no-cache' \
@@ -48,7 +45,7 @@ curl -X PUT \
 	"address_new":"New Address"
 }'
 
-For DELETE:
+## DELETE:
 curl -X DELETE \
   http://localhost:3000/api/v2/users/delete \
   -H 'cache-control: no-cache' \
