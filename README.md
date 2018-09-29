@@ -1,4 +1,4 @@
-# REST-API for CURD Operations using NodeJS
+# Basic REST-API for CURD Operations using NodeJS
 
 Areas Touched:
 GET, POST, PUT and DELETE
